@@ -1,0 +1,130 @@
+#project {
+	background-color: $theme-blue;
+	padding: 150px 0;
+	position: relative;
+	z-index: 9;
+    
+
+	.project-image {
+		width: 700px;
+		position: absolute;
+		top: -300px;
+		right: 0px;
+		z-index: 1;
+		@media (min-width: 310px) and (max-width: 1000px) {
+			display: none;
+		}
+		img {
+			width: 100%;
+		}
+	}
+	.project-inner {
+        height: 3125px;
+    overflow-y: hidden;
+    @media (min-width: 310px) and (max-width: 1000px) {
+			height: unset;
+    overflow-y: unset;
+		}
+		.project-item {
+			img {
+				width: 100%;
+			}
+		}
+		> .project-item:nth-child(1) {
+			width: 800px;
+
+			@media (min-width: 310px) and (max-width: 1000px) {
+				width: 300px;
+                 padding: 10px 0;
+                margin:  0 auto;
+			}
+		}
+		> .project-item:nth-child(2) {
+			width: 700px;
+
+			position: relative;
+			top: -50px;
+			left: 200px;
+			z-index: 7;
+			@media (min-width: 310px) and (max-width: 1000px) {
+				width: 300px;
+                left: unset;
+                top: unset;
+                 padding: 10px 0;
+                margin:  0 auto;
+			}
+		}
+		> .project-item:nth-child(3) {
+			width: 300px;
+
+			position: relative;
+			left: 50px;
+			top: -250px;
+			z-index: 9;
+			@media (min-width: 310px) and (max-width: 1000px) {
+				width: 300px;
+                left: unset;
+                top: unset;
+                 padding: 10px 0;
+                margin:  0 auto;
+			}
+		}
+		> .project-item:nth-child(4) {
+			width: 450px;
+
+			position: relative;
+			left: 120px;
+			top: -300px;
+			z-index: 7;
+            @media (min-width: 310px) and (max-width: 1000px) {
+				width: 300px;
+                left: unset;
+                top: unset;
+                 padding: 10px 0;
+                margin:  0 auto;
+			}
+		}
+		> .project-item:nth-child(5) {
+			width: 450px;
+
+			position: relative;
+			left: 450px;
+			top: -550px;
+			z-index: 7;
+            @media (min-width: 310px) and (max-width: 1000px) {
+				width: 300px;
+                left: unset;
+                top: unset;
+                 padding: 10px 0;
+                margin:  0 auto;
+			}
+		}
+		> .project-item:nth-child(6) {
+			width: 800px;
+
+			position: relative;
+			top: -650px;
+            @media (min-width: 310px) and (max-width: 1000px) {
+				width: 300px;
+                left: unset;
+                top: unset;
+                 padding: 10px 0;
+                margin:  0 auto;
+			}
+		}
+		> .project-item:nth-child(7) {
+			width: 800px;
+
+			position: relative;
+			top: -650px;
+			left: 100px;
+            @media (min-width: 310px) and (max-width: 1000px) {
+				width: 300px;
+                left: unset;
+                top: unset;
+                padding: 10px 0;
+                margin:  0 auto;
+			}
+		}
+	}
+}
