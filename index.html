@@ -23,12 +23,17 @@
 		<link rel="stylesheet" href="./assets/css/main.css" />
 	</head>
 	<body>
+		<!-- header -->
 		<header id="header">
 			<div class="container">
 				<nav class="navbar navbar-expand-md">
 					<div class="container-fluid">
-						<button class="btn toggle-btn" id="open-menu">
-							<i class="fa fa-bars"></i>
+						<button
+							class="btn toggle-btn"
+							id="open-menu"
+							aria-label="Open Menu"
+						>
+							<i class="fa fa-bars" aria-hidden="true"></i>
 						</button>
 						<div class="collapse navbar-collapse" id="navbarNav">
 							<ul class="navbar-nav mx-auto">
@@ -50,8 +55,12 @@
 						</div>
 
 						<div class="mobile-menu">
-							<button class="btn close-btn" id="close-menu">
-								<i class="fa fa-times"></i>
+							<button
+								class="btn close-btn"
+								id="close-menu"
+								aria-label="Close Menu"
+							>
+								<i class="fa fa-times" aria-hidden="true"></i>
 							</button>
 							<ul class="navbar-nav mx-auto">
 								<li class="nav-item">
@@ -74,8 +83,9 @@
 				</nav>
 			</div>
 		</header>
-
+		<!-- header end-->
 		<main>
+			<!-- hero section -->
 			<section id="hero">
 				<div class="hero-inner-wrapper">
 					<div class="hero-content-wrapper">
@@ -101,10 +111,13 @@
 					</div>
 				</div>
 			</section>
+			<!-- hero section end-->
 
+
+			<!-- about us section -->
 			<section id="about-us">
-				<h5>About the Industry</h5>
-				<h2>Digital Design In Art Installations</h2>
+				<h2>About the Industry</h2>
+				<h5>Digital Design In Art Installations</h5>
 				<p>
 					Digital design is an innovation in the field of art installations,
 					reshaping how we perceive, interact with, and experience art. This
@@ -122,7 +135,9 @@
 					has become an important part of art.
 				</p>
 			</section>
+			<!-- about us section end-->
 
+			<!-- features section -->
 			<section id="features">
 				<div class="container">
 					<div class="feature-inner-wrapper">
@@ -203,7 +218,9 @@
 					</div>
 				</div>
 			</section>
+<!-- features section end-->
 
+<!-- project section -->
 			<section id="project">
 				<div class="project-image">
 					<img src="./assets/img/project-bg.png" alt="" />
@@ -234,6 +251,7 @@
 					</div>
 				</div>
 			</section>
+			<!-- project section end-->
 		</main>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 		<script src="./assets/js//theme.js"></script>
