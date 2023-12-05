@@ -2,9 +2,10 @@
 	background-color: $theme-blue;
 	padding: 80px 0;
      border-bottom: 8px solid #28374A;
-	h5 {
+	h4 {
 		color: white;
 		position: relative;
+		font-size: 22px;
 		&::after {
 			content: "";
 			background-color: $theme-light-pink;
